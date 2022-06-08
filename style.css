@@ -1,8 +1,9 @@
 .container1{
     display: flex;  /*aligns the divs next to each other*/
-    border: solid;
-    border-color: red;
+    /*border: solid;
+    border-color: red;*/
     background-color: #1F2937;
+
     /*
     align-items: flex-start; resizes the box up or down to align the box depending on the amount of content within it
     align-items: flex-end;
@@ -12,8 +13,11 @@
 }
 
 .container1 div{
-    border: solid;
-    padding: 10px;
+    /*border: solid;
+    border-color: yellow;*/
+    padding: 10px; /**/
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 4.5%;
 }
 
 .container1 .box1{
@@ -26,31 +30,97 @@
 .container1 .box1 #header_logo{
     color: #F9FAF8;
     font-size: 24px;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 .container1 .box2{
     flex: 1;
-    padding-top: 1.5%;
+    padding-top: 1.5%; 
 }
 
 .container1 .box2 #link_one{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 .container1 .box2 #link_two{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 .container1 .box2 #link_three{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+
+
+.container2{
+    display: flex;  /*aligns the divs next to each other*/
+    /*border: solid;
+    border-color: aqua;*/
+    background-color: #1F2937;
+    /*
+    align-items: flex-start; resizes the box up or down to align the box depending on the amount of content within it
+    align-items: flex-end;
+    align-items: center; aligns the box to the center
+    align-items: stretch; <-- This is the default setting
+    flex-direction: column; <-- aligns the boxes vertically*/
+}
+
+.container2 div{
+    /*border: solid;
+    border-color: orange;*/
     font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 3.5%;
+    padding-left: 4.5%;
+}
+
+.container2 .box1 #title{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.container2 .box1 #prompt{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container2 .box1 #Sign-Up_Button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    border: none;
+    width: 25%;
+    padding: 10px 28px;
+    font-weight: bold;
+}
+
+
+/*.container2 .box1 .awesome #Sign-Up_Button:hover{
+    background-color: white;
+    color: #3882F6;
+    border-radius: 12px;
+}*/
+
+.container2 .box1{
+    flex: 1;
+    padding-top: 1.5%; 
+    /*border: solid;
+    border-color: limegreen;*/
+}
+
+.container2 .box2{
+    flex: 1;
+    padding-top: 1.5%; 
+}
+
+
+.container2 .box2 #photo{
+    width: 750px;
+    height: 300px;
+    object-fit: contain;
 }
