@@ -23,8 +23,6 @@
 .container1 .box1{
     flex: 2;   /*extends the div,or box1, horizontally*/
     /*if you use 'order' you can specify the order in which the boxes will appear from left to right*/
-    
-
 }
 
 .container1 .box1 #header_logo{
@@ -124,3 +122,144 @@
     height: 300px;
     object-fit: contain;
 }
+
+.container3 .box1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container3 .box1 #title{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.container4{
+    display: flex;
+    /*width: 55%;*/
+    align-content: center;
+    justify-content: center;
+}
+
+.container4 .box1{
+    flex: 1;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.container4 .box2{
+    flex: 1;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+}
+
+.container4 .box3{
+    flex: 1;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+}
+
+.container4 .box4{
+    flex: 1;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    margin-right: 15%;
+}
+
+.container4 .box1 #london{
+    width: 95%;
+    height: 35%;
+    object-fit: contain;
+}
+
+
+.container4 .box2 #versaille{
+    width: 95%;
+    height: 35%;
+    object-fit: contain;
+    margin-left: 18%;
+}
+
+.container4 .box3 #manchester{
+    width: 63%;
+    height: 35%;
+    object-fit: contain;
+    margin-left: 27%;
+}
+
+.container4 .box4 #medellin{
+    width: 63%;
+    height: 35%;
+    object-fit: contain;
+}
+
+.container5{
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container7{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.container7 .box1{
+    border: solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.container7 .box1 #copyright{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
